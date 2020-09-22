@@ -1,0 +1,45 @@
+$grid-breakpoints:(
+  sm: 768px,
+  md: 1024px,
+  lg: 1600px
+);
+$container-max-widths:(
+  sm: 768px,
+  md: 1024px,
+  lg: 1600px,
+);
+
+$theme-colors: (
+  primary: #fd7e14
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.vertical-align {
+  vertical-align: bottom;
+}
+
+.background-pc {
+  background-image: url("../assets/vasily-koloda-8CqDvPuo_kI-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.fa-search {
+  color: #fff;
+}
+
+.jumbotron {
+  background: #fff;
+}
+
+input {
+  width: 75%;
+}
+
+@media (max-width: 768px) {
+
+}
