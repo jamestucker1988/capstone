@@ -10,7 +10,7 @@ $container-max-widths:(
 );
 
 $theme-colors: (
-  primary: #fd7e14
+  primary: #c25d51
 );
 
 @import "../node_modules/bootstrap/scss/bootstrap";
@@ -25,7 +25,7 @@ $theme-colors: (
   background-size: cover;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: fill;
 }
 
 .fa-search {
@@ -33,13 +33,29 @@ $theme-colors: (
 }
 
 .jumbotron {
-  background: #fff;
+  background: #c7c7c7;
+}
+
+.card-header {
+  background: none;
+  text-align: center;
+}
+
+.card-footer {
+  text-align: center;
 }
 
 input {
-  width: 75%;
+  width: auto;
+}
+
+.jumbotron-fluid {
+  display: flex;
+  justify-content: center;
 }
 
 @media (max-width: 768px) {
-
+  .jumbotron {
+    background: none;
+  }
 }
