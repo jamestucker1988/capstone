@@ -8828,32 +8828,15 @@ a.text-dark:hover, a.text-dark:focus {
   background-size: cover;
   width: 100%;
   height: 100%;
-  -o-object-fit: fill;
-     object-fit: fill;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .fa-search {
   color: #fff;
 }
 
-.jumbotron {
-  background: #c7c7c7;
-}
-
-.card-header {
-  background: none;
-  text-align: center;
-}
-
-.card-footer {
-  text-align: center;
-}
-
-input {
-  width: auto;
-}
-
-.jumbotron-fluid {
+h3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -8862,9 +8845,36 @@ input {
           justify-content: center;
 }
 
-@media (max-width: 768px) {
+.jumbotron {
+  background: #c7c7c7;
+}
+
+.fontsize-2 {
+  font-size: 3rem;
+}
+
+.card-header {
+  background: none;
+}
+
+.form-control {
+  width: 75%;
+}
+
+.text-center-p {
+  text-align: center;
+}
+
+@media (max-width: 768) {
   .jumbotron {
     background: none;
+  }
+  .background-pc {
+    background: none;
+  }
+  body {
+    background-image: url("../assets/vasily-koloda-8CqDvPuo_kI-unsplash.jpg");
+    background-repeat: no-repeat;
   }
 }
 /*# sourceMappingURL=main.css.map */
