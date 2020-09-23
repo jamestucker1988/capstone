@@ -8858,7 +8858,15 @@ h3 {
 }
 
 .form-control {
-  width: 75%;
+  width: 50%;
+}
+
+.bg-2 {
+  background: #bababa;
+}
+
+.bg-3 {
+  background: skyblue;
 }
 
 .text-center-p {
@@ -8866,6 +8874,9 @@ h3 {
 }
 
 @media (max-width: 768) {
+  .d-card1-none {
+    display: none;
+  }
   .jumbotron {
     background: none;
   }
