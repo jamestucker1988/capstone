@@ -8865,6 +8865,19 @@ h3 {
   background: #bababa;
 }
 
+.border-radius {
+  border-radius: 100%;
+}
+
+.list-group1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .bg-3 {
   background: skyblue;
 }
