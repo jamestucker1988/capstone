@@ -1,12 +1,13 @@
 $grid-breakpoints:(
+  xs:0,
   sm: 768px,
   md: 1024px,
-  lg: 1600px
+  lg: 1200px
 );
 $container-max-widths:(
-  sm: 768px,
-  md: 1024px,
-  lg: 1600px,
+  sm: 720px,
+  md: 992px,
+  lg: 1140px,
 );
 
 $theme-colors: (
@@ -58,7 +59,7 @@ h3 {
 }
 
 .border-radius {
-  border-radius: 100%;
+  border-radius: 150px;
 }
 
 .list-group1 {
@@ -75,7 +76,7 @@ h3 {
 }
 
 @media (max-width: 768) {
-  .d-card1-none {
+  .d-card-none {
     display: none;
   }
 
@@ -87,8 +88,5 @@ h3 {
     background: none;
   }
 
-  body {
-    background-image: url("../assets/vasily-koloda-8CqDvPuo_kI-unsplash.jpg");
-    background-repeat: no-repeat;
-  }
+  
 }
