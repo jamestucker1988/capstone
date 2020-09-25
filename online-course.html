@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>course List</title>
+  <!-- Required meta tags -->
+
+  <script src="https://kit.fontawesome.com/528b755bd5.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap CSS -->
+  <link href="assets/main.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&amp;display=swap" rel="stylesheet"
+    crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    crossorigin="anonymous" />
+</head>
+
+<body>
+
+  <nav class="navbar navbar-fixed-top bg-primary navbar-light navbar-expand-lg ">
+    <div class=" container-fluid background-color1">
+      <div class="navbar-header"><a href="" class="navbar-brand text-white"><span
+            class="fas fa-user-graduate"></span>Patashule</a>
+      </div>
+
+
+      <div class="nav navbar-right  text-dark">
+        <button class="navbar-toggler nav navbar-right " type="button" data-toggle="collapse"
+          data-target="#target"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse " id="target">
+          <ul class="navbar-nav nav bg-white">
+            <li class="nav-item "><a href="#" class="nav-link"><i class="fa fa-search"></i>online-courses</a>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link"><span class="fa fa-user">About</span></a>
+            </li>
+            <li class="nav-item  align-self-center vertical-align active"><a href="#" class="nav-link"><span
+                  class="fas fa-rss"></span>Blog</a></li>
+            <li class="nav-item vertical-align active"><a href="#" class="nav-link"><span
+                  class="small material-icons vertical-align ">format_align_justify</span>More</a> </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="jumbotron  py-5">
+      <div class="card-transparent">
+        <div class="card-footer border-0 bg-transparent text-center font-weight-bold text-muted">Filter courses by
+          duration,eligibility,university,duration of program etc.</div>
+      </div>
+
+
+      <form action="/action_submit.php">
+        <div class="form-row align-items-center">
+          <div class="col-2 form-group"></div>
+          <div class="col-3 form-group">
+            <label for="#name">course-name:</label>
+            <div class="input-group input-group-lg">
+              <input class="form-control" type="text" id="name">
+            </div>
+          </div>
+          <div class="col-1 form-group">
+            <label for="button1">duration</label>
+            <!-- <div class="input-group"> -->
+            <div class="input-group">
+              <button class="btn form-control btn-secondary dropdown-toggle" type="button" id="button1"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Approx.
+              </button>
+
+              <div class="dropdown-menu" aria-labelledby="button1">
+                <a class="dropdown-item" href="#">Link 1</a>
+                <a class="dropdown-item" href="#">Link 2</a>
+                <a class="dropdown-item" href="#">Link 3</a>
+                <!-- </div> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-2 form-group">
+            <label for="stream">Stream:</label>
+            <div class="input-group"> <input type="text" class="form-control" name="stream" id="stream">
+            </div>
+          </div>
+          <!-- <div class="col-1 form-group">
+            <label for="age">Age:</label>
+            <div class="input-group"> <input type="text" name="age" id="age">
+            </div>
+
+          </div> -->
+          <!-- <div class="col-1 form-group">
+            <label for="level">Level:</label>
+            <div class="input-group"> <input type="text" name="level" id="level">
+            </div> -->
+
+          <!-- </div> -->
+          <div class="col-1 form-group">
+            <label for="search" class="invisible">pqrs</label>
+            <div class="input-group">
+              <button type="button" class="form-control btn btn-info" name="search" id="search">search</button>
+
+            </div>
+          </div>
+
+          <div class="col-1 form-group">
+            <label for="search" class="invisible">pqrs</label>
+            <div class="input-group">
+              <button type="button" class="form-control btn btn-warning text-white" name="search"
+                id="search">filter</button>
+
+            </div>
+          </div>
+          <div class="col-2 form-group"></div>
+
+        </div>
+
+
+
+      </form>
+
+
+</body>
