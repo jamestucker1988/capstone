@@ -2,6 +2,10 @@
   font-size: 0.8rem;
 }
 
+.font {
+  font-size: 2rem;
+}
+
 .fa-copyright,
 .fa-facebook,
 .fa-twitter,
@@ -9,6 +13,11 @@
 .fa-youtube,
 .fa-instagram-square {
   color: #fff;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next {
+  color: blue;
 }
 
 /*!

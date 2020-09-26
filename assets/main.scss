@@ -1,21 +1,25 @@
-$grid-breakpoints:(
-  xs:0,
+$grid-breakpoints: (
+  xs: 0,
   sm: 768px,
   md: 1024px,
-  lg: 1200px
+  lg: 1200px,
 );
-$container-max-widths:(
+$container-max-widths: (
   sm: 720px,
   md: 992px,
   lg: 1140px,
 );
 
 $theme-colors: (
-  primary: #c25d51
+  primary: #c25d51,
 );
 
 .fontsize-8 {
   font-size: 0.8rem;
+}
+
+.font {
+  font-size: 2rem;
 }
 
 .fa-copyright,
@@ -23,9 +27,13 @@ $theme-colors: (
 .fa-twitter,
 .fa-whatsapp,
 .fa-youtube,
-.fa-instagram-square
- {
+.fa-instagram-square {
   color: #fff;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next {
+  color: blue;
 }
 
 @import "../node_modules/bootstrap/scss/bootstrap";
@@ -42,10 +50,6 @@ $theme-colors: (
   height: 100%;
   object-fit: cover;
 }
-
-// .background-none {
-//   background: none;
-// }
 
 .fa-search {
   color: #fff;
@@ -105,6 +109,4 @@ h3 {
   .background-pc {
     background: none;
   }
-
-  
 }
