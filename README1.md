@@ -8,18 +8,18 @@ http://archive.vn/Bss88
 
 ## Preview of our webpage
 
-### Top of the webpage
+### Index Page
 
 ​
-![screenshot](images/webpage_preview_1.PNG)
+![screenshot](assets/index.png)
 
-### Middle of the webpage
+### Online-course page
 
-![screenshot 2](images/webpage_preview_3.PNG)
+![screenshot 2](assets/online-course.png)
 
-### Bottom of the webpage
+### Course-detail page
 
-![screenshot 3](images/webpage_preview_4.PNG)
+![screenshot 3](assets/course-detail.png)
 ​
 
 ## Built With
