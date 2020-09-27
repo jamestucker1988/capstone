@@ -1,80 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>course List</title>
+    <!-- Required meta tags -->
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>course List</title>
-  <!-- Required meta tags -->
+    <script
+      src="https://kit.fontawesome.com/528b755bd5.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap CSS -->
+    <link href="/assets/main.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&amp;display=swap"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      crossorigin="anonymous"
+    />
+  </head>
 
-  <script src="https://kit.fontawesome.com/528b755bd5.js" crossorigin="anonymous"></script>
-  <!-- Bootstrap CSS -->
-  <link href="assets/main.css" rel="stylesheet" type="text/css" />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&amp;display=swap" rel="stylesheet"
-    crossorigin="anonymous" />
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
-    crossorigin="anonymous" />
-</head>
+  <body>
+    <nav
+      class="navbar navbar-fixed-top bg-primary navbar-light navbar-expand-lg"
+    >
+      <div class="container-fluid background-color1">
+        <div class="navbar-header">
+          <a href="" class="navbar-brand text-white"
+            ><span class="fas fa-user-graduate"></span>Patashule</a
+          >
+        </div>
 
-<body>
-
-  <nav class="navbar navbar-fixed-top bg-primary navbar-light navbar-expand-lg ">
-    <div class=" container-fluid background-color1">
-      <div class="navbar-header"><a href="" class="navbar-brand text-white"><span
-            class="fas fa-user-graduate"></span>Patashule</a>
-      </div>
-
-
-      <div class="nav navbar-right  text-dark">
-        <button class="navbar-toggler nav navbar-right " type="button" data-toggle="collapse"
-          data-target="#target"><span class="navbar-toggler-icon"></span></button>
-        <div class="collapse navbar-collapse " id="target">
-          <ul class="navbar-nav nav bg-white">
-            <li class="nav-item "><a href="#" class="nav-link"><i class="fa fa-search"></i>online-courses</a>
-            </li>
-            <li class="nav-item"><a href="#" class="nav-link"><span class="fa fa-user">About</span></a>
-            </li>
-            <li class="nav-item  align-self-center vertical-align active"><a href="#" class="nav-link"><span
-                  class="fas fa-rss"></span>Blog</a></li>
-            <li class="nav-item vertical-align active"><a href="#" class="nav-link"><span
-                  class="small material-icons vertical-align ">format_align_justify</span>More</a> </li>
-          </ul>
+        <div class="nav navbar-right text-dark">
+          <button
+            class="navbar-toggler nav navbar-right"
+            type="button"
+            data-toggle="collapse"
+            data-target="#target"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="target">
+            <ul class="navbar-nav nav bg-white">
+              <li class="nav-item">
+                <a href="#" class="nav-link"
+                  ><i class="fa fa-search"></i>online-courses</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link"
+                  ><span class="fa fa-user">About</span></a
+                >
+              </li>
+              <li class="nav-item align-self-center vertical-align active">
+                <a href="#" class="nav-link"
+                  ><span class="fas fa-rss"></span>Blog</a
+                >
+              </li>
+              <li class="nav-item vertical-align active">
+                <a href="#" class="nav-link"
+                  ><span class="small material-icons vertical-align"
+                    >format_align_justify</span
+                  >More</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-  </nav>
-  <div class="container-fluid ">
-
-    <div class="row no-gutters background-pc">
-      <div class="col-0 col-sm-4 col-md-4 col-lg-4"></div>
-      <div class="col-12 col-sm-4 col-md-4 col-lg-4 my-5 py-5">
-        <div class="card-transparent mx-auto my-5 py-5 border-0 justify-content-center">
-          <div class="card-header text-primary text-center-p border-0 ">
-            <h4>Top online courses from the world .... </h4>
-          </div>
-          <div class="card-body">
-            <div class="jumbotron px-5">
-              <form class="mx-5">
-                <div class="input-group ">
-                  <input type="text" class="form-control" id="usr">
-                  <div class="input-group-append "><span class="text-white input-group-text   bg-primary">SEARCH</span>
+    </nav>
+    <div class="container-fluid">
+      <div class="row no-gutters background-pc">
+        <div class="col-0 col-sm-4 col-md-4 col-lg-4"></div>
+        <div class="col-12 col-sm-4 col-md-4 col-lg-4 my-5 py-5">
+          <div
+            class="card-transparent mx-auto my-5 py-5 border-0 justify-content-center"
+          >
+            <div class="card-header text-primary text-center-p border-0">
+              <h4>Top online courses from the world ....</h4>
+            </div>
+            <div class="card-body">
+              <div class="jumbotron px-5">
+                <form class="mx-5">
+                  <div class="input-group">
+                    <input type="text" class="form-control" id="usr1" />
+                    <div class="input-group-append">
+                      <span class="text-white input-group-text bg-primary"
+                        >SEARCH</span
+                      >
+                    </div>
                   </div>
-                  </input>
-                </div>
-              </form>
+                </form>
+              </div>
+            </div>
+            <div class="card-footer text-center-p border-0">
+              <a href="#" class="btn btn-medium btn-primary">How it works</a>
             </div>
           </div>
-          <div class="card-footer text-center-p border-0"> <a href="#" class="btn btn-medium btn-primary">How it
-              works</a>
-          </div>
+          <div class="col-0 col-sm-4 col-md-4 col-lg-4"></div>
         </div>
-        <div class="col-0 col-sm-4 col-md-4 col-lg-4"></div>
       </div>
     </div>
-    <div class="container bg-white  pt-sm-5">
-
-      <h3 class="text-center text-primary align-middle py-sm-5">Pata shule works in 4 simple steps</h3>
+    <div class="container-fluid bg-white pt-sm-5">
+      <h3 class="text-center text-primary align-middle py-sm-5">
+        Pata shule works in 4 simple steps
+      </h3>
       <div class="row no-gutters m-0">
         <div class="col-sm-12 col-md-2 col-lg-2"></div>
         <div class="col-sm-12 col-md-8 col-lg-8">
@@ -82,15 +120,20 @@
             <div class="col-12 col-sm-4 col-md-4 col-lg-4">
               <div class="card border-0">
                 <div class="card-header border-0">
-                  <p class="text-center-p"><span class="fas fa-book-reader  fontsize-2"></span></p>
-                </div>
-                <div class="card-body border-0 ">
-                  <div class="card-title font-weight-bold text-center-p"> 1-SEARCH</div>
-                  <p class="card-text text-center-p">It's simple on home page of path sule. Enter the name of course you
-                    are looking for and Click on search button.Alternatively you can browse through list of all courses
-                    on the top menu.
+                  <p class="text-center-p">
+                    <span class="fas fa-book-reader fontsize-2"></span>
                   </p>
-
+                </div>
+                <div class="card-body border-0">
+                  <div class="card-title font-weight-bold text-center-p">
+                    1-SEARCH
+                  </div>
+                  <p class="card-text text-center-p">
+                    It's simple on home page of path sule. Enter the name of
+                    course you are looking for and Click on search
+                    button.Alternatively you can browse through list of all
+                    courses on the top menu.
+                  </p>
                 </div>
               </div>
             </div>
@@ -98,16 +141,20 @@
             <div class="col-12 col-sm-12 col-md-4 col-lg-4">
               <div class="card border-0">
                 <div class="card-header border-0">
-                  <p class="text-center-p"><span class="fas fa-book-reader  fontsize-2"></span></p>
-                </div>
-                <div class="card-body border-0 ">
-                  <div class="card-title font-weight-bold text-center-p"> 1-SEARCH</div>
-                  <p class="card-text text-center-p">It's simple on home page of path sule. Enter the name of course you
-                    are
-                    looking for
-                    and Click on search button.Alternatively you can browse through list of all courses on the top menu.
+                  <p class="text-center-p">
+                    <span class="fas fa-book-reader fontsize-2"></span>
                   </p>
-
+                </div>
+                <div class="card-body border-0">
+                  <div class="card-title font-weight-bold text-center-p">
+                    1-SEARCH
+                  </div>
+                  <p class="card-text text-center-p">
+                    It's simple on home page of path sule. Enter the name of
+                    course you are looking for and Click on search
+                    button.Alternatively you can browse through list of all
+                    courses on the top menu.
+                  </p>
                 </div>
               </div>
             </div>
@@ -115,220 +162,245 @@
           </div>
         </div>
       </div>
-
-      <div class="row no-gutters m-0">
-        <div class="col-sm-12 col-md-2 col-lg-2"></div>
-        <div class="col-sm-12 col-md-8 col-lg-8">
-          <div class="row gutters">
-            <div class="col-12 col-sm-4 col-md-4 col-lg-4">
-              <div class="card border-0">
-                <div class="card-header border-0">
-                  <p class="text-center-p"><span class="fas fa-book-reader  fontsize-2"></span></p>
-                </div>
-                <div class="card-body border-0 ">
-                  <div class="card-title font-weight-bold text-center-p"> 1-SEARCH</div>
-                  <p class="card-text text-center-p">It's simple on home page of path sule. Enter the name of course you
-                    are
-                    looking for
-                    and Click on search button.Alternatively you can browse through list of all courses on the top menu.
-                  </p>
-
-                </div>
-              </div>
-            </div>
-            <div class="col-0 col-sm-4 col-md-4 col-lg-4"></div>
-            <div class="col-12 col-sm-4 col-md-4 col-lg-4">
-              <div class="card border-0">
-                <div class="card-header border-0">
-                  <p class="text-center-p"><span class="fas fa-book-reader  fontsize-2"></span></p>
-                </div>
-                <div class="card-body border-0 ">
-                  <div class="card-title font-weight-bold text-center-p"> 1-SEARCH</div>
-                  <p class="card-text text-center-p">It's simple on home page of path sule. Enter the name of course you
-                    are
-                    looking for
-                    and Click on search button.Alternatively you can browse through list of all courses on the top menu.
-                  </p>
-
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-
-      <div class="container-fluid">
-
-
-        <div class="row no-gutters">
-
-          <div class="col-12 col-sm-12 col-md-12 col-lg-12 bg-primary ">
-            <div class="row no-gutters py-sm-5">
-              <div class="col-sm-12 col-md-8 col-lg-8 card-transparent">
-                <div class="card-body">
-                  <h4 class="card-title font-weight-bold text-white">over 3000 courses to choose from
-                  </h4>
-                  <p class="card-text text-white">find a course suitable for you at affordable price. Invest in your
-                    future.</p>
-                  <a href="#" class="card-link btn btn-small btn-light text-primary">Find a course</a>
-                </div>
-
-              </div>
-              <div class="col-0 col-sm-12 col-md-4 col-sm-4 col-lg-4">
-                <img src=" assets/user-1823161-2017-06-07-11-00-09.jpg" alt="image"
-                  class="img-fluid  rounded-circle d-sm-none d-md-block d-lg-block">
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-
-
-        <div class="row no-gutters">
-
-          <div class="col-sm-12 col-md-12 col-lg-12 bg-2 ">
-            <div class="row no-gutters py-sm-5 ">
-              <div class="col-sm-8 col-md-8 col-lg-8 card-transparent align-items-end">
-                <div class="card-body">
-                  <h4 class="card-title font-weight-bold text-white"> More than 100+ universities affiliated
-                  </h4>
-                  <p class="card-text text-white">Top notch experts from around the world.
-                  </p>
-                  <a href="#" class="card-link btn btn-small btn-light text-primary">Find a course</a>
-                </div>
-
-              </div>
-              <div class="col-0 col-sm-12 col-md-4 col-sm-4 col-lg-4">
-                <img src="assets/Blog2FeaturedImage-1.png" alt="image"
-                  class="d-sm-none d-md-block d-lg-block img-fluid   rounded-circle">
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-
-
-        <div class="row no-gutters">
-
-          <div class="col-12 col-sm-12 col-md-12 col-lg-12 bg-3 ">
-            <div class="row no-gutters py-sm-5">
-              <div class="col-8 col-sm-8 col-md-8 col-lg-8 card-transparent ">
-                <div class="card-body">
-                  <h4 class="card-title font-weight-bold text-white">search, apply, Get assessed, Graduate, get placed
-                  </h4>
-                  <p class="card-text text-white">Search, apply, enroll, graduate.
-                  </p>
-                  <a href="#" class="card-link btn btn-small btn-light text-primary">Find a course</a>
-                </div>
-
-              </div>
-              <div class="col-4 col-md-4 col-sm-4 col-lg-4">
-                <img src="assets/online-3412473_1920.jpg" alt="image"
-                  class="img-fluid  rounded-circle d-sm-none d-md-block d-lg-block">
-              </div>
-
-            </div>
-            <ul class=" list-group list-group-horizontal-sm bg-dark justify-content-sm-between ">
-              <li class="list-group-item px-0 bg-dark  mx-auto  text-white">Home</li>
-              <li class="list-group-item px-0 bg-dark  mx-auto  text-white">Search</li>
-              <li class="list-group-item px-0 bg-dark  mx-auto  text-white">About-us</li>
-              <li class="list-group-item px-0 bg-dark  mx-auto  text-white">Advertise</li>
-              <li class="list-group-item px-0 bg-dark  mx-auto  text-white"><i class="fas fa-user-graduate"></i>
-              </li>
-              <li class="list-group-item px-0 bg-dark  mx-auto  text-white">Facebook</li>
-              <li class="list-group-item px-0 bg-dark  mx-auto  text-white">Twitter</li>
-              <li class="list-group-item px-0 bg-dark  mx-auto  text-white">Blog</li>
-              <li class="list-group-item px-0 bg-dark  mx-auto  text-white">Google +</li>
-            </ul>
-          </div>
-
-
-        </div>
-
-
-
-
-        <div class="row my-sm-0 py-sm-0 bg-dark no-gutters">
-
+    </div>
+    <div class="row no-gutters m-0">
+      <div class="col-sm-12 col-md-2 col-lg-2"></div>
+      <div class="col-sm-12 col-md-8 col-lg-8">
+        <div class="row gutters">
           <div class="col-12 col-sm-4 col-md-4 col-lg-4">
-            <div class="card py-sm-0  bg-dark mx-auto  border-0 justify-content-center">
-
-              <div class="card-body">
-                <h4 class="card-title text-white">SUBDCRIBE</h4>
-                <form>
-                  <div class="input-group">
-                    <input type="text" class="form-control" id="usr">
-                    <div class="input-group-append "><span
-                        class="text-white input-group-text   bg-primary">SEARCH</span>
-                    </div>
-                    </input>
-                  </div>
-                </form>
-
-              </div>
-
-            </div>
-
-
-          </div>
-          <div class="col-12 col-sm-4 col-md-4 col-lg-4">
-            <div class="card pt-sm-0  bg-dark mx-auto border-0 ">
-
-              <div class="card-body mx-sm-auto justify-content-sm-center text-center-p">
-                <h4 class="card-title  text-white">
-                  CONTACT
-                </h4>
-
-                <p class="text-white card-text text-center-p">have a question or submission?</p>
-                <p class="text-primary card-text text-center-p">xyz@gmail.com</p>
-
-              </div>
-
-            </div>
-
-          </div>
-
-          <div class="col-12 col-sm-4 col-md-4 col-lg-4">
-            <div class="card pt-sm-0  bg-dark mx-auto  border-0 ">
-
-              <div class="card-body mx-sm-auto justify-content-sm-center text-center-p">
-                <h4 class="card-title  text-white">
-                  ABOUT
-                </h4>
-                <p class="card-text text-white text-center-p"> have a question or submission?</p>
-
-                <p class="card-text text-primary text-center-p">xyz@gmail.com</p>
-
+            <div class="card border-0">
+              <div class="card-header border-0">
+                <p class="text-center-p">
+                  <span class="fas fa-book-reader fontsize-2"></span>
                 </p>
               </div>
-
-            </div>
-
-          </div>
-
-        </div>
-        <div class="row no-gutters py-sm-3 bg-dark">
-          <div class="col-4 col-sm-4 col-md-4 col-lg-4">
-            <div class="list-inline">
-              <div class="list-inline-item"><i class="fab fa-facebook"></i></div>
-              <div class="list-inline-item"><i class="fab fa-twitter"></i></div>
-              <div class="list-inline-item"><i class="fab fa-instagram-square"></i></div>
-              <div class="list-inline-item"><i class="fab fa-whatsapp"></i></div>
-              <div class="list-inline-item"><i class="fab fa-youtube"></i></div>
+              <div class="card-body border-0">
+                <div class="card-title font-weight-bold text-center-p">
+                  1-SEARCH
+                </div>
+                <p class="card-text text-center-p">
+                  It's simple on home page of path sule. Enter the name of
+                  course you are looking for and Click on search
+                  button.Alternatively you can browse through list of all
+                  courses on the top menu.
+                </p>
+              </div>
             </div>
           </div>
-          <div class="text-right col-8 col-sm-8 col-md-8 col-lg-8 text-white"><i class="fas fa-copyright"></i>Patashule
-            co.
-            inc.Powered by
-            iconium digital.love and awesomeness.</div>
+          <div class="col-0 col-sm-4 col-md-4 col-lg-4"></div>
+          <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+            <div class="card border-0">
+              <div class="card-header border-0">
+                <p class="text-center-p">
+                  <span class="fas fa-book-reader fontsize-2"></span>
+                </p>
+              </div>
+              <div class="card-body border-0">
+                <div class="card-title font-weight-bold text-center-p">
+                  1-SEARCH
+                </div>
+                <p class="card-text text-center-p">
+                  It's simple on home page of path sule. Enter the name of
+                  course you are looking for and Click on search
+                  button.Alternatively you can browse through list of all
+                  courses on the top menu.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+    </div>
 
-
+    <div class="container-fluid">
+      <div class="row no-gutters">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 bg-primary">
+          <div class="row no-gutters py-sm-5">
+            <div class="col-sm-12 col-md-8 col-lg-8 card-transparent">
+              <div class="card-body">
+                <h4 class="card-title font-weight-bold text-white">
+                  over 3000 courses to choose from
+                </h4>
+                <p class="card-text text-white">
+                  find a course suitable for you at affordable price. Invest in
+                  your future.
+                </p>
+                <a
+                  href="#"
+                  class="card-link btn btn-small btn-light text-primary"
+                  >Find a course</a
+                >
+              </div>
+            </div>
+            <div class="col-0 col-sm-12 col-md-4 col-sm-4 col-lg-4">
+              <img
+                src=" assets/user-1823161-2017-06-07-11-00-09.jpg"
+                alt="image"
+                class="img-fluid rounded-circle d-sm-none d-md-block d-lg-block"
+              />
+            </div>
+          </div>
+        </div>
       </div>
 
-</body>
+      <div class="row no-gutters">
+        <div class="col-sm-12 col-md-12 col-lg-12 bg-2">
+          <div class="row no-gutters py-sm-5">
+            <div
+              class="col-sm-8 col-md-8 col-lg-8 card-transparent align-items-end"
+            >
+              <div class="card-body">
+                <h4 class="card-title font-weight-bold text-white">
+                  More than 100+ universities affiliated
+                </h4>
+                <p class="card-text text-white">
+                  Top notch experts from around the world.
+                </p>
+                <a
+                  href="#"
+                  class="card-link btn btn-small btn-light text-primary"
+                  >Find a course</a
+                >
+              </div>
+            </div>
+            <div class="col-0 col-sm-12 col-md-4 col-sm-4 col-lg-4">
+              <img
+                src="assets/Blog2FeaturedImage-1.png"
+                alt="image"
+                class="d-sm-none d-md-block d-lg-block img-fluid rounded-circle"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
 
+      <div class="row no-gutters">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 bg-3">
+          <div class="row no-gutters py-sm-5">
+            <div class="col-8 col-sm-8 col-md-8 col-lg-8 card-transparent">
+              <div class="card-body">
+                <h4 class="card-title font-weight-bold text-white">
+                  search, apply, Get assessed, Graduate, get placed
+                </h4>
+                <p class="card-text text-white">
+                  Search, apply, enroll, graduate.
+                </p>
+                <a
+                  href="#"
+                  class="card-link btn btn-small btn-light text-primary"
+                  >Find a course</a
+                >
+              </div>
+            </div>
+            <div class="col-4 col-md-4 col-sm-4 col-lg-4">
+              <img
+                src="assets/online-3412473_1920.jpg"
+                alt="image"
+                class="img-fluid rounded-circle d-sm-none d-md-block d-lg-block"
+              />
+            </div>
+          </div>
+          <ul
+            class="list-group list-group-horizontal-sm bg-dark justify-content-sm-between"
+          >
+            <li class="list-group-item px-0 bg-dark mx-auto text-white">
+              Home
+            </li>
+            <li class="list-group-item px-0 bg-dark mx-auto text-white">
+              Search
+            </li>
+            <li class="list-group-item px-0 bg-dark mx-auto text-white">
+              About-us
+            </li>
+            <li class="list-group-item px-0 bg-dark mx-auto text-white">
+              Advertise
+            </li>
+            <li class="list-group-item px-0 bg-dark mx-auto text-white">
+              <i class="fas fa-user-graduate"></i>
+            </li>
+            <li class="list-group-item px-0 bg-dark mx-auto text-white">
+              Facebook
+            </li>
+            <li class="list-group-item px-0 bg-dark mx-auto text-white">
+              Twitter
+            </li>
+            <li class="list-group-item px-0 bg-dark mx-auto text-white">
+              Blog
+            </li>
+            <li class="list-group-item px-0 bg-dark mx-auto text-white">
+              Google +
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row my-sm-0 py-sm-0 bg-dark no-gutters">
+        <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+          <div
+            class="card py-sm-0 bg-dark mx-auto border-0 justify-content-center"
+          >
+            <div class="card-body">
+              <h4 class="card-title text-white">SUBDCRIBE</h4>
+              <form>
+                <div class="input-group">
+                  <input type="text" class="form-control" id="usr" />
+                  <div class="input-group-append">
+                    <span class="text-white input-group-text bg-primary"
+                      >SEARCH</span
+                    >
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+          <div class="card pt-sm-0 bg-dark mx-auto border-0">
+            <div
+              class="card-body mx-sm-auto justify-content-sm-center text-center-p"
+            >
+              <h4 class="card-title text-white">CONTACT</h4>
+
+              <p class="text-white card-text text-center-p">
+                have a question or submission?
+              </p>
+              <p class="text-primary card-text text-center-p">xyz@gmail.com</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+          <div class="card pt-sm-0 bg-dark mx-auto border-0">
+            <div
+              class="card-body mx-sm-auto justify-content-sm-center text-center-p"
+            >
+              <h4 class="card-title text-white">ABOUT</h4>
+              <p class="card-text text-white text-center-p">
+                have a question or submission?
+              </p>
+
+              <p class="card-text text-primary text-center-p">xyz@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row no-gutters py-sm-3 bg-dark">
+        <div class="col-4 col-sm-4 col-md-4 col-lg-4">
+          <div class="list-inline">
+            <div class="list-inline-item"><i class="fab fa-facebook"></i></div>
+            <div class="list-inline-item"><i class="fab fa-twitter"></i></div>
+            <div class="list-inline-item">
+              <i class="fab fa-instagram-square"></i>
+            </div>
+            <div class="list-inline-item"><i class="fab fa-whatsapp"></i></div>
+            <div class="list-inline-item"><i class="fab fa-youtube"></i></div>
+          </div>
+        </div>
+        <div class="text-right col-8 col-sm-8 col-md-8 col-lg-8 text-white">
+          <i class="fas fa-copyright"></i>Patashule co. inc.Powered by iconium
+          digital.love and awesomeness.
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
