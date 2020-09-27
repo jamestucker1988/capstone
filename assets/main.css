@@ -9958,12 +9958,6 @@ h3 {
   background: #bababa;
 }
 
-.form-control1 {
-  background: #c7c7c7;
-  width: 50%;
-  border-bottom: 2px dashed grey;
-}
-
 .bg-2 {
   background: #bababa;
 }
@@ -9999,5 +9993,19 @@ h3 {
   .background-pc {
     background: none;
   }
+  .form-control1 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768.88) {
+  .form-control1 {
+    width: 50%;
+  }
+}
+
+.form-control1 {
+  background: #c7c7c7;
+  border-bottom: 2px dashed grey;
 }
 /*# sourceMappingURL=main.css.map */

@@ -45,7 +45,7 @@
     </div>
   </nav>
   <div class="container">
-    <div class="jumbotron  py-5">
+    <div class="jumbotron  py-5 d-none d-sm-none d-md-block d-lg-block">
       <div class="card-transparent">
         <div class="card-footer border-0 bg-transparent text-center font-weight-bold text-muted">Filter courses by
           duration,eligibility,university,duration of program etc.</div>
@@ -104,9 +104,10 @@
       </form>
 
     </div>
-    <p class="py-5 font-weight-bold text-center text-muted font">Search Result Found 7 Courses Listed
-    <p>
-    <div class="row no-gutters">
+    <p class="py-5 font-weight-bold text-center text-muted font d-none d-sm-none d-md-block d-lg-block">Search Result Found 7 Courses Listed
+    <div>
+      <div class="d-none d-sm-none d-md-block">
+    <div class="row no-gutters ">
       <div class="col-2"></div>
       <div class="col-2">
         <div class="card-transparent text-left">
@@ -136,27 +137,38 @@
         </div>
       </div>
     </div>
+  </div>
       </div>
-      <label for="form" class="font-weight-bold text-center mt-5 pt-5 text-danger font">Register Here</label>
-      <form  action="/actionpage.php" id="form" class="mx-auto">
-        
-      <div class="form-group">
-        <label for="input1">First Name:</label>
-      <input type="text" id="input1" class="form-control form-control1">
-      <label for="last-name">Last Name:</label>
-      <input type="text" id="last-name" class="form-control form-control1">
-      <label for="username">Username:</label>
-      <input type="text" id="username" class="form-control form-control1">
-      <label for="email">Email:</label>
-      <input type="text" id="email" class="form-control form-control1">
-      <label for="password">password:</label>
-      <input type="text " id="password " class="form-control form-control1">
-      <label for="re-password" >Re-password:</label>
-      <input type="text " id="re-password" class="form-control form-control1">
-      <button type="button" class="btn btn-primary ">Sign Up</button>
-      <a href="#" class="btn btn-outline text-success">Sign In</a>
+
+      <div class="row no-gutters">
+        <div class="col-2"></div>
+        <div class="col-8"><label for="form" class="font-weight-bold text-center mt-5 pt-5 text-danger font">Register Here</label>
+          <form  action="/actionpage.php" id="form" class="mx-auto">
+            
+          <div class="form-group">
+            <label for="input1">First Name:</label>
+          <input type="text" id="input1" class="form-control form-control1">
+          <label for="last-name">Last Name:</label>
+          <input type="text" id="last-name" class="form-control form-control1">
+          <label for="username">Username:</label>
+          <input type="text" id="username" class="form-control form-control1">
+          <label for="email">Email:</label>
+          <input type="text" id="email" class="form-control form-control1">
+          <label for="password">password:</label>
+          <input type="text " id="password " class="form-control form-control1">
+          <label for="re-password" >Re-password:</label>
+          <input type="text " id="re-password" class="form-control form-control1">
+          <button type="button" class="btn btn-primary ">Sign Up</button>
+          <a href="#" class="btn btn-outline text-success">Sign In</a>
+          </div>
+          </form>
+        </div>
+        <div class="col-2">
+
+        </div>
       </div>
-      </form>
+      
+    </div>
 </body>
 </html>
 
