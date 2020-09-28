@@ -101,6 +101,10 @@ h3 {
   text-align: center;
 }
 
+.z-index {
+  z-index: 1;
+}
+
 @media (max-width: 768) {
   .d-card-none {
     display: none;
