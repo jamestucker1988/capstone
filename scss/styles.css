@@ -1,22 +1,3 @@
-// @import "custom.scss";
-$grid-breakpoints: (
-  xs: 0,
-  sm: 768px,
-  md: 1024px,
-  lg: 1200px,
-);
-$container-max-widths: (
-  sm: 720px,
-  md: 992px,
-  lg: 1140px,
-);
-
-$theme-colors: (
-  primary: #c25d51,
-);
-
-@import "../node_modules/bootstrap/scss/bootstrap";
-
 .fontsize-8 {
   font-size: 0.8rem;
 }
@@ -35,16 +16,17 @@ $theme-colors: (
 }
 
 .vertical-align {
-  vertical-align: middle;
+  vertical-align: bottom;
 }
 
 .background-pc {
-  background-image: url("../assets/vasily-koloda-8CqDvPuo_kI-unsplash.jpg");
+  background-image: url("assets/vasily-koloda-8CqDvPuo_kI-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .fa-search {
@@ -55,7 +37,9 @@ h3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .jumbotron {
@@ -71,6 +55,8 @@ h3 {
 }
 
 .form1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -87,8 +73,12 @@ h3 {
 }
 
 .list-group1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .bg-3 {
@@ -107,15 +97,12 @@ h3 {
   .d-card-none {
     display: none;
   }
-
   .jumbotron {
     background: none;
   }
-
   .background-pc {
     background: none;
   }
-
   .form-control1 {
     width: 100%;
   }
