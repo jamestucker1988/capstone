@@ -18,5 +18,8 @@
   "homepage": "https://github.com/jamestucker1988/capstone#readme",
   "dependencies": {
     "bootstrap": "^4.5.2"
+  },
+  "devDependencies": {
+    "hint": "^6.0.7"
   }
 }
