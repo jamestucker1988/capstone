@@ -46,14 +46,3 @@ jobs:
           [ -f .stylelintrc.json ] || wget https://raw.githubusercontent.com/microverseinc/linters-config/master/html-css/.stylelintrc.json
       - name: Stylelint Report
         run: npx stylelint "**/*.scss"
-
-    #     {
-    #       "extends": ["stylelint-config-standard"],
-    #       "plugins": ["stylelint-scss", "stylelint-csstree-validator"],
-    #       "rules": {
-    #         "at-rule-no-unknown": null,
-    #         "scss/at-rule-no-unknown": true,
-    #         "csstree/validator": true
-    #          },
-    #          "ignoreFiles": ["build/**", "dist/**", "**/reset*.css", "**/bootstrap*.css"]
-    # }
