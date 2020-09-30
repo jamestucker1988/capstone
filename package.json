@@ -1,7 +1,7 @@
 {
   "name": "capstone",
   "version": "1.0.0",
-  "description": "",
+  "description": "​ This is an assigned project where I am supposed to create a search website for online ourses .",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

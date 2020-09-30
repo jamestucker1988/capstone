@@ -7,11 +7,12 @@
     <!-- Required meta tags -->
 
     <script
-      src="https://kit.fontawesome.com/528b755bd5.js"
+      src="https://kit.fontawesome.com/2b062f9b4e.js"
       crossorigin="anonymous"
     ></script>
+
     <!-- Bootstrap CSS -->
-    <link href="/assets/main.css" rel="stylesheet" type="text/css" />
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&amp;display=swap"
       rel="stylesheet"
@@ -21,60 +22,52 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-    <link
+
+    <!-- <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
-    />
+    /> -->
   </head>
 
   <body>
-    <nav
-      class="navbar navbar-fixed-top bg-primary navbar-light navbar-expand-lg"
-    >
-      <div class="container-fluid background-color1">
-        <div class="navbar-header">
-          <a href="" class="navbar-brand text-white"
-            ><span class="fas fa-user-graduate"></span>Patashule</a
-          >
-        </div>
-
-        <div class="nav navbar-right text-dark">
-          <button
-            class="navbar-toggler nav navbar-right"
-            type="button"
-            data-toggle="collapse"
-            data-target="#target"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="target">
-            <ul class="navbar-nav nav bg-white">
-              <li class="nav-item">
-                <a href="online-course.html" class="nav-link"
-                  ><i class="fa fa-search"></i>online-courses</a
-                >
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link"
-                  ><span class="fa fa-user">About</span></a
-                >
-              </li>
-              <li class="nav-item align-self-center vertical-align active">
-                <a href="#" class="nav-link"
-                  ><span class="fas fa-rss"></span>Blog</a
-                >
-              </li>
-              <li class="nav-item vertical-align active">
-                <a href="#" class="nav-link"
-                  ><span class="small material-icons vertical-align"
-                    >format_align_justify</span
-                  >More</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand text-primary" href="#">Patashule</a>
+      <button
+        class="navbar-toggler bg-primary"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-lg-auto bg-primary">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">online-course </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"
+              ><span class="fa fa-user">About</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"
+              ><span class="fas fa-rss">Blog</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"
+              ><span class="small material-icons vertical-align"
+                >format_align_justify</span
+              >More</a
+            >
+          </li>
+        </ul>
       </div>
     </nav>
     <div class="container-fluid">
@@ -84,8 +77,10 @@
           <div
             class="card-transparent mx-auto my-5 py-5 border-0 justify-content-center"
           >
-            <div class="card-header text-primary text-center-p border-0">
-              <h3 class="z-index">Top online courses from the world ....</h3>
+            <div class="card-header text-center-p border-0">
+              <h3 class="text-primary">
+                Top online courses from the world ....
+              </h3>
             </div>
             <div class="card-body">
               <div class="jumbotron px-5">
@@ -109,7 +104,7 @@
         </div>
       </div>
     </div>
-    <div
+    <section
       class="container-fluid bg-white pt-sm-5 d-none d-sm-none d-md-block d-lg-block"
     >
       <h3 class="text-center text-primary align-middle py-sm-5">
@@ -213,14 +208,14 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <div class="container-fluid">
       <div class="row no-gutters">
         <div class="col-12 col-sm-12 col-md-12 col-lg-12 bg-primary">
           <div class="row no-gutters py-sm-5">
             <div class="col-sm-12 col-md-8 col-lg-8 card-transparent">
-              <div class="card-body">
+              <article class="card-body">
                 <h4 class="card-title font-weight-bold text-white">
                   over 3000 courses to choose from
                 </h4>
@@ -233,9 +228,9 @@
                   class="card-link btn btn-small btn-light text-primary"
                   >Find a course</a
                 >
-              </div>
+              </article>
             </div>
-            <div
+            <aside
               class="col-0 col-sm-12 col-md-4 col-sm-4 col-lg-4 d-none d-sm-none d-md-block d-lg-block"
             >
               <img
@@ -243,7 +238,7 @@
                 alt="image"
                 class="img-fluid rounded-circle d-sm-none d-md-block d-lg-block"
               />
-            </div>
+            </aside>
           </div>
         </div>
       </div>
@@ -254,7 +249,7 @@
             <div
               class="col-sm-8 col-md-8 col-lg-8 card-transparent align-items-end"
             >
-              <div class="card-body">
+              <article class="card-body">
                 <h4 class="card-title font-weight-bold text-white">
                   More than 100+ universities affiliated
                 </h4>
@@ -266,9 +261,9 @@
                   class="card-link btn btn-small btn-light text-primary"
                   >Find a course</a
                 >
-              </div>
+              </article>
             </div>
-            <div
+            <aside
               class="col-0 col-sm-12 col-md-4 col-sm-4 col-lg-4 d-none d-sm-none d-md-block d-lg-block"
             >
               <img
@@ -276,7 +271,7 @@
                 alt="image"
                 class="d-sm-none d-md-block d-lg-block img-fluid rounded-circle"
               />
-            </div>
+            </aside>
           </div>
         </div>
       </div>
@@ -285,7 +280,7 @@
         <div class="col-12 col-sm-12 col-md-12 col-lg-12 bg-3">
           <div class="row no-gutters py-sm-5">
             <div class="col-8 col-sm-8 col-md-8 col-lg-8 card-transparent">
-              <div class="card-body">
+              <article class="card-body">
                 <h4 class="card-title font-weight-bold text-white">
                   search, apply, Get assessed, Graduate, get placed
                 </h4>
@@ -297,16 +292,17 @@
                   class="card-link btn btn-small btn-light text-primary"
                   >Find a course</a
                 >
-              </div>
+              </article>
             </div>
-            <div class="col-4 col-md-4 col-sm-4 col-lg-4">
+            <figure class="col-4 col-md-4 col-sm-4 col-lg-4">
               <img
                 src="assets/online-3412473_1920.jpg"
                 alt="image"
                 class="img-fluid rounded-circle d-none d-sm-none d-md-block d-lg-block"
               />
-            </div>
+            </figure>
           </div>
+
           <ul
             class="list-group list-group-horizontal-sm bg-dark justify-content-sm-between"
           >
@@ -429,5 +425,20 @@
         </div>
       </div>
     </div>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

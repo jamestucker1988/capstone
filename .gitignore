@@ -1,5 +1,3 @@
 # .gitignore
 node_modules/
-package-lock.json
-custom.scss
- main.css
+.vs-code
