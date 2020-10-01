@@ -10815,6 +10815,15 @@ a.text-dark:hover, a.text-dark:focus {
   opacity: 0;
 }
 
+.object {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.fas fa-user-graduate {
+  color: #fff;
+}
+
 .fa-copyright,
 .fa-facebook,
 .fa-twitter,
