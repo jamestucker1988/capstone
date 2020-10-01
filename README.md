@@ -19,7 +19,7 @@ This is an assigned project where I am supposed to create a search website for o
 
 ### Course-detail page
 
-![screenshot 3](assets/course-detail1.png)
+![screenshot 3](..assets/course-detail1.png)
 ​
 
 ## Built With
