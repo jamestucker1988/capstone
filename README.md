@@ -17,9 +17,6 @@ This is an assigned project where I am supposed to create a search website for o
 
 ![screenshot 2](assets/online-course.png)
 
-### Course-detail page
-
-![screenshot 3](assets/detail.png)
 ​
 
 ## Built With
