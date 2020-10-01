@@ -12,6 +12,10 @@
   font-size: 1.2rem;
 }
 
+.opacity1 {
+  opacity: 0;
+}
+
 .fa-copyright,
 .fa-facebook,
 .fa-twitter,
@@ -38,9 +42,10 @@
   color: #fff;
 }
 
-h3 {
+h1 {
   display: flex;
   justify-content: center;
+  opacity: 1;
 }
 
 .jumbotron {

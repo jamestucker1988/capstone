@@ -10811,6 +10811,10 @@ a.text-dark:hover, a.text-dark:focus {
   font-size: 1.2rem;
 }
 
+.opacity1 {
+  opacity: 0;
+}
+
 .fa-copyright,
 .fa-facebook,
 .fa-twitter,
@@ -10838,13 +10842,14 @@ a.text-dark:hover, a.text-dark:focus {
   color: #fff;
 }
 
-h3 {
+h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  opacity: 1;
 }
 
 .jumbotron {

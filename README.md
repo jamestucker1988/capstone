@@ -19,7 +19,7 @@ This is an assigned project where I am supposed to create a search website for o
 
 ### Course-detail page
 
-![screenshot 3](assets/course-detail.png)
+![screenshot 3](assets/course-detail1.png)
 ​
 
 ## Built With
@@ -62,7 +62,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
+- Hat tip to anyone whose code was used in particular,
+  -Sam Achola (Nairobi,Kenya)
+  -Matthew Najuguna (Nairobi,Kenya)
+  -Kevin Mutua (Nairobi,Kenya)
 - Inspiration
 - etc
   ​
