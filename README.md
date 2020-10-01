@@ -1,4 +1,4 @@
-# Project - Capstone Project
+# Project - Search Portal For Online courses
 
 ​
 This is an assigned project where I am supposed to create a search website for online ourses .
@@ -19,7 +19,7 @@ This is an assigned project where I am supposed to create a search website for o
 
 ### Course-detail page
 
-![screenshot 3](..assets/course-detail1.png)
+![screenshot 3](assets/course-detail1.png)
 ​
 
 ## Built With
@@ -32,9 +32,11 @@ This is an assigned project where I am supposed to create a search website for o
 
 ## Live Demo of my project
 
-<a href="https://raw.githack.com/jamestucker1988/capstone/feature/index.html" >click here-index.html</a>
-<a href="https://raw.githack.com/jamestucker1988/capstone/feature/online-course.html">click here-onlinecourse.html</a>
-<a href="https://raw.githack.com/jamestucker1988/capstone/feature/course-detail.html">click here-course-detail.html</a>
+# <a href="https://raw.githack.com/jamestucker1988/capstone/feature/index.html" >click here-index.html</a>
+
+# <a href="https://raw.githack.com/jamestucker1988/capstone/feature/online-course.html">click here-onlinecourse.html</a>
+
+# <a href="https://raw.githack.com/jamestucker1988/capstone/feature/course-detail.html">click here-course-detail.html</a>
 
 ## Authors
 
