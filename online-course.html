@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>course List</title>
+    <!-- Required meta tags -->
+
+    <script
+      src="https://kit.fontawesome.com/2b062f9b4e.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap CSS -->
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&amp;display=swap"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <nav class="nav navbar-dark bg-primary">
+      <a class="navbar-brand text-primary" href="#"
+        ><span class="fas fa-user-graduate text-white">Patashule</span></a
+      >
+
+      <ul class="nav ml-auto bg-primary">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="index.html">Home </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#"
+            ><span class="fa fa-user text-white">About</span></a
+          >
+        </li>
+        <li class="nav-item text-white">
+          <a class="nav-link" href="#"
+            ><span class="fas fa-rss text-white">Blog</span></a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"
+            ><span class="small material-icons text-white vertical-align"
+              >format_align_justify</span
+            ><span class="text-white">More</span></a
+          >
+        </li>
+      </ul>
+    </nav>
+    <div class="container-fluid">
+      <div class="jumbotron py-5 d-none d-sm-none d-md-block d-lg-block">
+        <div class="card-transparent">
+          <div
+            class="card-footer border-0 bg-transparent text-center font-weight-bold text-muted"
+          >
+            Filter courses by duration,eligibility,university,duration of
+            program etc.
+          </div>
+        </div>
+
+        <form action="/action_submit.php">
+          <div class="form-row align-items-center">
+            <div class="col-2 form-group"></div>
+            <div class="col-3 form-group">
+              <label for="name1">course-name:</label>
+              <div class="input-group input-group-lg">
+                <input class="form-control" type="text" id="name1" />
+              </div>
+            </div>
+            <div class="col-1 form-group">
+              <label for="button1">duration</label>
+
+              <div class="input-group">
+                <button
+                  class="btn form-control btn-clr dropdown-toggle"
+                  type="button"
+                  id="button1"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Approx.
+                </button>
+
+                <div class="dropdown-menu" aria-labelledby="button1">
+                  <a class="dropdown-item" href="#">Link 1</a>
+                  <a class="dropdown-item" href="#">Link 2</a>
+                  <a class="dropdown-item" href="#">Link 3</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-2 form-group">
+              <label for="stream">Stream:</label>
+              <div class="input-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  name="stream"
+                  id="stream"
+                />
+              </div>
+            </div>
+
+            <div class="col-1 form-group">
+              <label for="search" class="invisible">pqrs</label>
+              <div class="input-group">
+                <button
+                  type="button"
+                  class="form-control btn btn-info"
+                  name="search"
+                  id="search"
+                >
+                  search
+                </button>
+              </div>
+            </div>
+
+            <div class="col-1 form-group">
+              <label for="search-button" class="invisible">pqrs</label>
+              <div class="input-group">
+                <button
+                  type="button"
+                  class="form-control btn btn-warning text-white"
+                  name="search"
+                  id="search-button"
+                >
+                  filter
+                </button>
+              </div>
+            </div>
+            <div class="col-2 form-group"></div>
+          </div>
+        </form>
+      </div>
+      <p
+        class="py-5 font-weight-bold text-center text-muted font d-none d-sm-none d-md-block d-lg-block"
+      >
+        Search Result Found 7 Courses Listed
+      </p>
+      <section>
+        <div class="d-none d-sm-none d-md-block">
+          <div class="row no-gutters">
+            <div class="col-2"></div>
+            <div class="col-2">
+              <div class="card-transparent text-left">
+                <img
+                  class="card-img-top object"
+                  src="../assets/ny.jpg"
+                  alt="img"
+                />
+                <div class="card-body">
+                  <h4 class="card-title">new york universities</h4>
+                  <p class="card-text">
+                    The engineering couses at newyork university is headed by
+                    Prof Lawrence clarke
+                    <a href="course-detail.html" class="lead d-block">
+                      Read More....</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-2">
+              <div class="card-transparent text-left">
+                <img
+                  class="card-img-top object"
+                  src="../assets/chicago.jpg"
+                  alt=""
+                />
+                <div class="card-body">
+                  <h4 class="card-title">new york universities</h4>
+                  <p class="card-text">
+                    The engineering couses at newyork university is headed by
+                    Prof Lawrence clarke<a
+                      href="course-detail.html"
+                      class="lead d-block"
+                    >
+                      Read More....</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-2">
+              <div class="card-transparent text-left">
+                <img class="card-img-top" src="../assets/la.jpg" alt="" />
+                <div class="card-body">
+                  <h4 class="card-title">cambridge universities</h4>
+                  <p class="card-text">
+                    The engineering couses at newyork university is headed by
+                    Prof Lawrence clarke<a
+                      href="course-detail.html"
+                      class="lead d-block"
+                    >
+                      Read More....</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row no-gutters">
+          <div class="col-2"></div>
+          <div class="col-8">
+            <h4 class="font-weight-bold text-center mt-5 pt-5 text-danger font">
+              Register Here
+            </h4>
+            <form action="/actionpage.php" class="mx-auto">
+              <div class="form-group">
+                <label for="input1">First Name:</label>
+                <input
+                  type="text"
+                  id="input1"
+                  class="form-control form-control1"
+                />
+                <label for="last-name">Last Name:</label>
+                <input
+                  type="text"
+                  id="last-name"
+                  class="form-control form-control1"
+                />
+                <label for="username">Username:</label>
+                <input
+                  type="text"
+                  id="username"
+                  class="form-control form-control1"
+                />
+                <label for="email">Email:</label>
+                <input
+                  type="text"
+                  id="email"
+                  class="form-control form-control1"
+                />
+                <label for="password">password:</label>
+                <input
+                  type="text"
+                  id="password"
+                  class="form-control form-control1"
+                />
+                <label for="re-password">Re-password:</label>
+                <input
+                  type="text"
+                  id="re-password"
+                  class="form-control form-control1"
+                />
+                <button type="button" class="btn btn-primary">Sign Up</button>
+                <a href="#" class="btn btn-outline text-success">Sign In</a>
+              </div>
+            </form>
+          </div>
+          <div class="col-2"></div>
+        </div>
+      </section>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

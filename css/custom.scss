@@ -1,0 +1,10 @@
+$theme-colors: (
+  "primary": #c25d51,
+);
+$grid-points: (
+  sm: 768px,
+  md: 1024px,
+  lg: 1300px,
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap";

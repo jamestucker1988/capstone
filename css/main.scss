@@ -1,0 +1,128 @@
+@import "custom.scss";
+
+.fontsize-8 {
+  font-size: 0.8rem;
+}
+
+.font {
+  font-size: 2rem;
+}
+
+.font-5 {
+  font-size: 1.2rem;
+}
+
+.opacity1 {
+  opacity: 0;
+}
+
+.bg-social {
+  background-color: #3f3838;
+}
+
+.img-size {
+  width: 200px;
+  height: 200px;
+}
+
+.object {
+  object-fit: cover;
+}
+
+.img-width {
+  width: 200px;
+  height: 200px;
+}
+
+.vertical-align {
+  vertical-align: bottom;
+}
+
+.background-pc {
+  background-image: url("../assets/vasily-koloda-8CqDvPuo_kI-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.fa-search {
+  color: #fff;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  opacity: 1;
+}
+
+.jumbotron {
+  background: #c7c7c7;
+}
+
+.fontsize-2 {
+  font-size: 3rem;
+}
+
+.card-header {
+  background: none;
+}
+
+.form1 {
+  display: flex;
+}
+
+.btn-clr {
+  background: #bababa;
+}
+
+.bg-2 {
+  background: rgb(186, 186, 186);
+}
+
+.list-group1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bg-3 {
+  background: skyblue;
+}
+
+.text-center-p {
+  text-align: center;
+}
+
+.z-index {
+  z-index: 1;
+}
+
+@media (max-width: 768) {
+  .d-card-none {
+    display: none;
+  }
+
+  .jumbotron {
+    background: none;
+  }
+
+  .background-pc {
+    background: none;
+  }
+
+  .form-control1 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768.88) {
+  .form-control1 {
+    width: 50%;
+  }
+}
+
+.form-control1 {
+  background: #c7c7c7;
+  border-bottom: 2px dashed grey;
+}
