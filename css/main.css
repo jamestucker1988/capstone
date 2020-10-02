@@ -10834,19 +10834,6 @@ a.text-dark:hover, a.text-dark:focus {
   height: 200px;
 }
 
-.navbar-toggler-icon {
-  color: black;
-}
-
-.fa-copyright,
-.fa-facebook,
-.fa-twitter,
-.fa-whatsapp,
-.fa-youtube,
-.fa-instagram-square {
-  color: #fff;
-}
-
 .vertical-align {
   vertical-align: bottom;
 }
