@@ -67,8 +67,8 @@
     </nav>
     <div class="container-fluid">
       <div class="row no-gutters background-pc">
-        <div class="col-sm-1 col-md-1 col-lg-1"></div>
-        <div class="col-sm-10 col-md-10 col-lg-10 my-5 py-5">
+        <div class="col-sm-0 col-md-2 col-lg-2"></div>
+        <div class="col-sm-12 col-md-8 col-lg-8 my-5 py-5">
           <div
             class="card-transparent mx-auto my-5 py-5 border-0 justify-content-center"
           >
@@ -87,11 +87,19 @@
                 <form class="mx-5">
                   <div class="input-group">
                     <input type="text" class="form-control" id="usr1" />
-                    <div class="input-group-append">
+                    <div
+                      class="input-group-append d-none d-md-inline d-lg-inline d-sm-none"
+                    >
                       <span class="text-white input-group-text bg-primary"
                         >SEARCH</span
                       >
                     </div>
+                    <button
+                      type="submit"
+                      class="btn btn-primary btn-block d-md-none"
+                    >
+                      SEARCH
+                    </button>
                   </div>
                 </form>
               </div>
@@ -101,7 +109,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-1 col-md-1 col-lg-1"></div>
+        <div class="col-sm-0 col-md-2 col-lg-2"></div>
       </div>
     </div>
     <section
