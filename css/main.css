@@ -10815,13 +10815,18 @@ a.text-dark:hover, a.text-dark:focus {
   opacity: 0;
 }
 
+.bg-social {
+  background-color: #3f3838;
+}
+
+.img-size {
+  width: 200px;
+  height: 200px;
+}
+
 .object {
   -o-object-fit: cover;
      object-fit: cover;
-}
-
-.border-radius {
-  border-radius: 120%;
 }
 
 .img-width {
@@ -10894,10 +10899,6 @@ h1 {
 
 .bg-2 {
   background: #bababa;
-}
-
-.border-radius {
-  border-radius: 150px;
 }
 
 .list-group1 {

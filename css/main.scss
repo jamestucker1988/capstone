@@ -16,11 +16,16 @@
   opacity: 0;
 }
 
+.bg-social {
+  background-color: #3f3838;
+}
+.img-size {
+  width: 200px;
+  height: 200px;
+}
+
 .object {
   object-fit: cover;
-}
-.border-radius {
-  border-radius: 120%;
 }
 
 .img-width {
@@ -86,10 +91,6 @@ h1 {
 
 .bg-2 {
   background: rgb(186, 186, 186);
-}
-
-.border-radius {
-  border-radius: 150px;
 }
 
 .list-group1 {
