@@ -59,7 +59,7 @@
       </nav>
     </header>
 
-    <div class="container">
+    <div class="container-fluid">
       <div class="card-transparent">
         <div class="card-header lead font">
           <i class="fas fa-cross"></i>University of Cambridge
@@ -125,11 +125,18 @@
         <div class="card-header">
           <h4 class="text-primary">Location of given university on map</h4>
         </div>
-        <img
-          src="assets/Cambridge_centre_map.png"
-          alt="location of university"
-          class="img-fluid card-img-top"
-        />
+        <div class="row no-gutters">
+          <div class="col-2 col-sm-2 col-md-2 col-lg-2"></div>
+          <div class="col-8 col-sm-8 col-md-8 col-lg-8">
+            <img
+              src="assets/Cambridge_centre_map.png"
+              alt="location of university"
+              class="img-fluid card-img-top"
+            />
+          </div>
+          <div class="col-2 col-sm-2 col-md-2 col-lg-2"></div>
+        </div>
+
         <div class="card-footer mt-5">
           <a href="#" class="text-decoration-none text-dark bg-muted lead"
             >Click To View More Details</a
